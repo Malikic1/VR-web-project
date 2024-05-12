@@ -15,14 +15,14 @@
     <title>VR</title>
   </head>
   <body>
-    <header class="flex">
-      <button id="menu_btn">
+    <header class="flex bg-transparent">
+      <button id="menu_btn" class="bg-transparent">
         <i class="fa-solid fa-bars" style="color: rgb(207, 206, 206)"></i>
       </button>
-      <div>
+      <div class="align-self">
         <h1 class="col rel" style="top: -10px">VR</h1>
       </div>
-      <div class="flex nav hide" id="nav">
+      <div class="flex align-self nav hide" id="nav">
         <section class="align-self">
           <nav>
             <ul>
@@ -30,15 +30,16 @@
               <li><a href="">Features</a></li>
               <li><a href="">Product</a></li>
               <li><a href="">Category</a></li>
-              <li><a href="">About Us</a></li>
+              <li><a href="about.html">About Us</a></li>
             </ul>
           </nav>
         </section>
-
-        <section class="align-self">
-          <input type="text" class="nav-inp" />
+      </div>
+      <div class="align-self search">
+        <section>
+          <input type="text" class="bg-transparent nav-inp" />
           <button class="col1 nav-btn2 rel" style="background: transparent">
-            <i class="fa-solid fa-magnifying-glass"></i> Search
+            <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </section>
       </div>
@@ -267,9 +268,9 @@
             <input
               type="email"
               placeholder="Enter your email..."
-              class="input"
+              class="input bg-transparent"
             />
-            <button class="c-btn btn nav-btn"><b>Join Now</b></button>
+            <button class="btn nav-btn"><b>Join Now</b></button>
           </div>
 
           <br />
@@ -285,12 +286,16 @@
           <span class="col1">Newsletter</span> and be up to date
         </h1>
         <div class="fs-1">
-          <input type="email" placeholder="Enter your email..." class="input" />
-          <button class="c-btn btn nav-btn"><b>Subscribe</b></button>
+          <input
+            type="email"
+            placeholder="Enter your email..."
+            class="bg-transparent input"
+          />
+          <button class="btn nav-btn"><b>Subscribe</b></button>
         </div>
         <br /><br />
         <p class="col1">
-          ©Copyright 2023 <b class="col">AzeezCode</b>. All rights reserved
+          ©Copyright 2024 <b class="col">AzeezCode</b>. All rights reserved
         </p>
       </div>
     </main>

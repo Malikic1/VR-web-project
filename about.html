@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>VR</title>
+    <style>
+      @media screen and (max-width: 649px) {
+        .hero {
+          position: absolute;
+          margin-top: 7rem;
+          left: 10%;
+        }
+        .br {
+          border-radius: 50% !important;
+        }
+      }
+      @media screen and (max-width: 465px) {
+        .hero {
+          left: 0%;
+        }
+      }
+      @media screen and (min-width: 500px) and (max-width: 649px) {
+        .hero {
+          left: 20%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="flex bg-transparent">
+      <button id="menu_btn" class="bg-transparent">
+        <i class="fa-solid fa-bars" style="color: rgb(207, 206, 206)"></i>
+      </button>
+      <div class="align-self">
+        <h1 class="col rel" style="top: -10px">VR</h1>
+      </div>
+      <div class="flex align-self nav hide" id="nav">
+        <section class="align-self">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="">Features</a></li>
+              <li><a href="">Product</a></li>
+              <li><a href="">Category</a></li>
+              <li><a href="" class="col">About Us</a></li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+      <div class="align-self search">
+        <section>
+          <input type="text" class="bg-transparent nav-inp" />
+          <button class="col1 nav-btn2 rel" style="background: transparent">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </section>
+      </div>
+    </header>
+    <main>
+      <div class="container1">
+        <section class="rel">
+          <h2 class="h1">What is <span class="col1">Virtual Reality?</span></h2>
+          <p class="mt col1" style="line-height: 25px">
+            Virtual Reality (VR) is a computer-generated environment with scenes
+            and objects that appear to be real, making the user feel they are
+            immersed in their surroundings. or completely different from the
+            real world.
+          </p>
+          <h2>
+            <span class="col"> Purpose of </span><span class="col1">VR</span>
+          </h2>
+          <p class="col1" style="line-height: 25px">
+            A virtual world is a computer-based online community environment
+            that is designed and shared by individuals so that they can interact
+            in a custom-built, simulated world. Users interact with each other
+            in this simulated world using text-based, two-dimensional or
+            three-dimensional graphical models called avatars.
+            <br /><br />
+            VR technology continued to advance through the 21st Century as
+            people began to realise how useful it could be. In addition to
+            flight training, VR began to be used to train people for other
+            dangerous jobs. For example, in 2019, the company Osso launched
+            their own VR system. It helps surgeons practise doing dangerous
+            surgeries. It was kind of like the board game Operation! There are
+            many other dangerous or complicated jobs that use VR training. These
+            include firefighting, wind turbine maintenance, offshore oil rig
+            work, and skilled trades such as welding. As the cost of VR
+            equipment comes down, more and more companies are using it to train
+            their employees. For example, retail companies like WalMart and
+            FedEx also offer training for front-line employees using VR.
+            <br /><br />
+            VR technology has the power to take us to worlds that we could not
+            experience otherwise. From job sites to other planets, VR gives
+            people the opportunity to experience many things in a safe way. In
+            the future you may have a job in which your training is in an
+            immersive virtual reality environment. You may play games or hang
+            out with people. You might even explore the depths of the ocean or
+            climb Mount Everest, all from the comfort of home. Virtual reality
+            can take you to all sorts of interesting places today, and who knows
+            where you will be able to virtually go in the future!
+            <br />
+          </p>
+        </section>
+        <section class="">
+          <img src="img4.JPEG" alt="" class="hero br" style="opacity: 0.1" />
+        </section>
+      </div>
+      <br /><br />
+      <div style="text-align: center" class="rel z">
+        <h1>
+          <span class="col">Subscribe</span> to our
+          <span class="col1">Newsletter</span> and be up to date
+        </h1>
+        <div class="fs-1">
+          <input
+            type="email"
+            placeholder="Enter your email..."
+            class="bg-transparent input"
+          />
+          <button class="btn nav-btn"><b>Subscribe</b></button>
+        </div>
+        <br /><br />
+        <p class="col1">
+          ©Copyright 2024 <b class="col">AzeezCode</b>. All rights reserved
+        </p>
+      </div>
+    </main>
+    <script>
+      var menuButton = document.getElementById("menu_btn");
+      var nav = document.getElementById("nav");
+
+      menuButton.addEventListener("click", function () {
+        nav.classList.toggle("hide");
+      });
+    </script>
+  </body>
+</html>
